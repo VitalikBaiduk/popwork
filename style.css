@@ -99,7 +99,7 @@ body {
 }
 .header_button:hover {
   background-color: #111111;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .left_button {
@@ -225,7 +225,6 @@ form {
   justify-content: space-between;
   align-items: center;
   margin-top: 30px;
-
 }
 .welcome {
   width: 96px;
