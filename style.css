@@ -4,12 +4,16 @@ body {
 }
 
 .header {
-  height: 1240px;
-  background: linear-gradient(348.45deg, #f9f0e7 4.54%, #f2e4d3 61.41%);
-}
-.container {
-  width: 1200px;
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
   margin: 0 auto;
+  padding: 8px 120px 114px 120px;
+  background-image: url(./img/Background.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
 }
 
 /* Nav */
@@ -17,20 +21,18 @@ body {
 .headerNav {
   width: 100%;
   height: 80px;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: rgba(255, 255, 255, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.6);
   border-radius: 8px;
+  padding: 0 40px;
 }
 .headerlogo {
   display: flex;
-  justify-content: space-between;
-  width: 95px;
-  height: 30px;
-  text-align: center;
-  margin-left: 40px;
+  align-items: center;
 }
 .graySquare {
   position: relative;
@@ -54,9 +56,9 @@ body {
   font-size: 24px;
 }
 .popLogo {
-  margin: 0;
-  padding-top: 8px;
-  padding-right: 5px;
+  margin-right: 6px;
+  position: relative;
+  top: 3px;
 }
 
 .headerLinks {
@@ -64,19 +66,44 @@ body {
   display: flex;
   /* justify-content: space-between; */
   align-items: center;
-  margin-right: 40px;
 }
 .subHeaderLinks {
-  width: 400px;
   display: flex;
   justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.header_item {
+  margin-right: 32px;
 }
 
 .elemHeaderLinks {
   color: black;
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 15px;
+}
+.header_button {
+  background: rgba(17, 17, 17, 0.05);
+  border: none;
+  border-radius: 8px;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  color: #111111;
+  cursor: pointer;
+  padding: 5px 20px;
+  outline: none;
+  transition: all 0.2s linear;
+}
+.header_button:hover {
+  background-color: #111111;
+  color: #FFFFFF;
+}
+
+.left_button {
+  margin-right: 8px;
 }
 
 .elemHeaderLinks1 {
@@ -119,62 +146,59 @@ body {
 /* headerInfo */
 
 .headerInfo {
-  text-align: center;
-  margin-top: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 72px;
 }
 
 .titleOfHeader {
-  width: 970px;
-  height: 145px;
-  margin: 0 auto;
+  width: 969px;
+  text-align: center;
   font-weight: 700;
   font-size: 60px;
   line-height: 72px;
   letter-spacing: 0.8px;
+  margin: 0 0 28px 0;
 }
 
 .textInfo {
-  text-align: center;
   width: 595px;
-  height: 80px;
-  font-weight: 300;
+  text-align: center;
+  font-weight: 400;
   font-size: 26px;
   line-height: 36px;
-  margin: 0 auto;
-  padding-top: 30px;
+  margin: 0;
 }
 
 form {
-  position: relative;
   width: 400px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 4px 16px rgb(55 53 40 / 15%);
+  padding: 5px 5px 5px 27px;
   border-radius: 16px;
   margin-top: 32px;
 }
 
 .text {
-  width: 400px;
-  height: 60px;
+  width: 210px;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 300;
-  border-radius: 16px;
-  padding-left: 30px;
-  background: rgba(255, 255, 255, 0.85);
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  box-sizing: border-box;
-  box-shadow: 0px 4px 16px rgba(55, 53, 40, 0.15);
+  background: transparent;
+  border: none;
+  outline: none;
 }
 
 .submit {
-  position: absolute;
-  right: 5px;
-  top: 6px;
   color: white;
   font-size: 18px;
   font-weight: 700;
   line-height: 12px;
-  width: 125px;
-  height: 48px;
   background: radial-gradient(
     92.4% 626.63% at 7.6% 21.88%,
     #c67af7 0%,
@@ -182,20 +206,26 @@ form {
     #ffc95f 97.92%
   );
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.4);
+  font-family: "Roboto", sans-serif;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 18px 22px;
 }
 
 .infoAboutFreeTrial {
   font-size: 12px;
   font-weight: 400;
   line-height: 12px;
+  margin: 15px 0 0 0;
 }
 .imgLogo {
-  margin: 83px auto 0px;
-  display: flex;
-  align-items: center;
   width: 800px;
+  display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+
 }
 .welcome {
   width: 96px;
@@ -223,54 +253,33 @@ form {
 }
 
 .textLogo {
-  margin: 17px auto 0px;
-  width: 626px;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  margin: 18px 0 0 0;
 }
-
-.vector {
-  margin: 35px auto 0px;
-  position: relative;
-  width: 40px;
-}
-.verticalVector {
-  position: absolute;
-  left: 13px;
-  top: 6px;
-}
-.horizontalVector {
-  position: absolute;
-  left: 8px;
-  top: 14px;
+.arrow_down {
+  margin: 34px 0 66px 0;
+  cursor: pointer;
 }
 .textWidthEmojiHeader {
-  position: relative;
-  margin-top: 66px;
-  margin-left: 210px;
   width: 600px;
   height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
   background: #fefcfa;
   box-shadow: 0px 4px 16px #f4e6d7;
   border-radius: 16px 16px 16px 4px;
+  padding: 24px 56px 24px 24px;
+  box-sizing: border-box;
 }
 .firstOrigin {
-  width: 539px;
-  height: 44px;
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
-  padding-top: 24px;
-  padding-left: 24px;
-}
-.secondOrigin {
-  width: 520px;
-  height: 66px;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
-  padding-left: 24px;
+  margin: 0;
 }
 .imojiHeader {
   position: absolute;
