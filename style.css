@@ -428,13 +428,79 @@ form {
   left: -20px;
 }
 .textSecondSection {
-  box-sizing: border-box;
+  margin: 0;
   width: 480px;
   height: 408px;
   font-size: 58px;
   font-weight: 700;
-  margin: 0;
+  letter-spacing: 1.2px;
 }
 .green {
   background: #e5ffc7;
+}
+.thirdSection {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 182px 125px 0px 171px;
+}
+.textOfThirdSection {
+  margin: 0;
+  width: 433px;
+  height: 476px;
+  font-size: 58px;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+}
+.orange {
+  background: #fde49b;
+}
+
+.imgThirdSection {
+  margin-top: 30px;
+  margin-left: 60px;
+}
+.imgThirdSection1 {
+  width: 651px;
+  height: 166px;
+  filter: drop-shadow(0px 4px 16px rgba(103, 63, 24, 0.2));
+  border-radius: 16px;
+}
+.imgThirdSection2 {
+  width: 651px;
+  height: 261;
+  filter: drop-shadow(0px 4px 16px rgba(103, 63, 24, 0.2));
+  border-radius: 16px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.imgThirdSection3 {
+  width: 651px;
+  height: 137px;
+  filter: drop-shadow(0px 4px 16px rgba(103, 63, 24, 0.2));
+  border-radius: 16px;
+}
+
+.textThirdSecond {
+  margin: 0;
+  box-sizing: border-box;
+  position: absolute;
+  color: white;
+  top: 130px;
+  right: 220px;
+  width: 400px;
+  height: 98px;
+  background: #111111;
+  box-shadow: 0px 4px 16px rgba(154, 94, 36, 0.15);
+  border-radius: 16px 16px 4px 16px;
+  padding: 17px 24px 15px 16px;
+  font-size: 16px;
+}
+.imgThirdSection4 {
+  position: absolute;
+  top: 185px;
+  right: 130px;
+  width: 82px;
+  height: 100px;
 }
