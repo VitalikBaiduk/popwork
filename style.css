@@ -546,10 +546,147 @@ form {
   padding-top: 9px;
   color: white;
 }
-.bigTextSection {
+.largeTextSection {
   margin: 0;
   padding-top: 18px;
   color: white;
   width: 238px;
   text-align: center;
+}
+.thirdDepartment {
+  margin: 0 auto;
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.textOfTitleThirdDepartment {
+  margin: 80px 0px 50px 0px;
+  color: #111111;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.6px;
+}
+.SectionOfPeople {
+  height: 527px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.firstLine {
+  width: 2000px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 275px;
+}
+.element {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  width: 487px;
+  height: 163px;
+  background: #ffffff;
+  box-shadow: 0px 14px 32px rgba(103, 63, 24, 0.1);
+  border-radius: 10px;
+}
+.leftSide {
+  padding: 16px 21px 17px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.logoOfFirstElementFirstLine {
+  width: 119px;
+  height: 25px;
+}
+.logoOfFirstElementFirstLineThirdElem {
+  width: 167px;
+  height: 25px;
+}
+.description {
+  margin: 0;
+  padding-top: 12px;
+}
+.nameAndLastName {
+  margin: 0;
+  padding-top: 30px;
+  font-size: 14px;
+}
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px 20px 55px 21px;
+}
+.TextPosition {
+  margin: 0;
+  text-align: right;
+  font-size: 12px;
+  color: rgba(55, 53, 40, 0.6);
+}
+.photo {
+  width: 56px;
+  height: 56px;
+}
+
+.secondLine {
+  display: flex;
+  justify-content: space-between;
+  width: 1493px;
+  margin-left: 350px;
+}
+.descriptionSecondLineSecondElem {
+  margin: 0;
+  padding-top: 12px;
+}
+.leftSideThirdElementSecondLine {
+  padding: 16px 63px 17px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.logoOfFirstElementSecondLine {
+  width: 63px;
+  height: 25px;
+}
+.logoOfFirstElementSecondLine2 {
+  width: 153px;
+  height: 25px;
+}
+.logoOfFirstElementSecondLine3 {
+  width: 25px;
+  height: 25px;
+}
+.logoOfFirstElementSecondLine4 {
+  width: 89px;
+  height: 25px;
+}
+.nameAndLastNameFirstElemSecLine {
+  margin: 0;
+  padding-top: 50px;
+  font-size: 14px;
+}
+.nameAndLastNameSecondLineSecondElem {
+  margin: 0;
+  padding-top: 12px;
+  font-size: 14px;
+}
+
+.TextPositionSecondLine {
+  width: 80px;
+  margin: 0;
+  text-align: right;
+  font-size: 12px;
+  color: rgba(55, 53, 40, 0.6);
+}
+.photoElementSecondLine {
+  width: 56px;
+  height: 56px;
+  margin-left: 23px;
+}
+
+.thirdLine {
+  width: 2000px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 275px;
 }
