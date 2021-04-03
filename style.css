@@ -2,6 +2,10 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
+main {
+  width: 1440px;
+  margin: 0 auto;
+}
 
 .header {
   width: 1440px;
@@ -559,6 +563,7 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 }
 .textOfTitleThirdDepartment {
   margin: 80px 0px 50px 0px;
@@ -606,10 +611,16 @@ form {
 .description {
   margin: 0;
   padding-top: 12px;
+  line-height: 21px;
 }
 .nameAndLastName {
   margin: 0;
   padding-top: 30px;
+  font-size: 14px;
+}
+.nameAndLastNameForLastElemLastLine {
+  margin: 0;
+  padding-top: 9px;
   font-size: 14px;
 }
 .rightSide {
