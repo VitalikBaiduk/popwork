@@ -1004,6 +1004,29 @@
     }
     
     .secondSectionFifthDepartment {
+        width: 904px;
         display: flex;
         justify-content: space-between;
+    }
+    
+    .firstPartsecondSection {
+        display: flex;
+    }
+    
+    .textFirstPartsecondSection {
+        margin: 0;
+        box-sizing: border-box;
+        position: relative;
+        left: 6px;
+        top: 41px;
+        right: 220px;
+        width: 320px;
+        height: 186px;
+        color: white;
+        background: #111111;
+        box-shadow: 0px 4px 16px rgba(154, 94, 36, 0.15);
+        border-radius: 16px 16px 16px 4px;
+        padding: 17px 18px 17px 16px;
+        font-size: 16px;
+        line-height: 22px;
     }
