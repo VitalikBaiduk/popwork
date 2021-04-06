@@ -955,3 +955,55 @@
         width: 76px;
         height: 100px;
     }
+    
+    .fifthDepartment {
+        width: 1440px;
+        margin-top: 170px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: url(./img/bk5.png)
+    }
+    
+    .titleFifthDepartment {
+        margin: 0;
+        font-weight: normal;
+        font-size: 58px;
+        letter-spacing: 1.2px;
+    }
+    
+    .firstSectionFifthDepartment {
+        width: 960px;
+    }
+    
+    .fifthDepartmentText {
+        margin: 0;
+        font-weight: normal;
+        font-size: 26px;
+    }
+    
+    .fifthDepartmentText1 {
+        padding-top: 40px;
+    }
+    
+    .fifthDepartmentText2 {
+        padding-top: 39px;
+    }
+    
+    .fifthDepartmentText3 {
+        padding-top: 29px;
+    }
+    
+    .fifthDepartmentText4 {
+        padding-top: 35px;
+    }
+    
+    .fifthDepartmentText5 {
+        padding-top: 46px;
+        padding-bottom: 97px;
+    }
+    
+    .secondSectionFifthDepartment {
+        display: flex;
+        justify-content: space-between;
+    }
