@@ -122,15 +122,15 @@ main {
 }
 
 .elemHeaderLinks1 {
-    margin-left: 40px;
-    text-align: center;
-    padding-top: 9px;
+    width: 84px;
+    height: 27px;
     color: black;
     text-decoration: none;
     font-weight: 300;
     font-size: 15px;
-    width: 84px;
-    height: 27px;
+    margin-left: 40px;
+    text-align: center;
+    padding-top: 9px;
     background-color: rgba(17, 17, 17, 0.05);
     border-radius: 8px;
     transition: 0.2s linear;
@@ -142,15 +142,15 @@ main {
 }
 
 .elemHeaderLinks2 {
-    margin-left: 15px;
-    text-align: center;
-    padding-top: 9px;
+    width: 112px;
+    height: 27px;
     color: black;
     text-decoration: none;
     font-weight: 300;
     font-size: 15px;
-    width: 112px;
-    height: 27px;
+    margin-left: 15px;
+    text-align: center;
+    padding-top: 9px;
     background-color: rgba(17, 17, 17, 0.05);
     border-radius: 8px;
     transition: 0.2s linear;
@@ -198,8 +198,8 @@ form {
     background: rgba(255, 255, 255, 0.85);
     border: 1px solid rgba(255, 255, 255, 0.4);
     box-shadow: 0px 4px 16px rgb(55 53 40 / 15%);
-    padding: 5px 5px 5px 27px;
     border-radius: 16px;
+    padding: 5px 5px 5px 27px;
     margin-top: 32px;
 }
 
@@ -280,8 +280,8 @@ form {
 }
 
 .arrow_down {
-    margin: 34px 0 66px 0;
     cursor: pointer;
+    margin: 34px 0 66px 0;
 }
 
 .textWidthEmojiHeader {
@@ -294,8 +294,8 @@ form {
     background: #fefcfa;
     box-shadow: 0px 4px 16px #f4e6d7;
     border-radius: 16px 16px 16px 4px;
-    padding: 24px 56px 24px 24px;
     box-sizing: border-box;
+    padding: 24px 56px 24px 24px;
 }
 
 .firstOrigin {
@@ -306,9 +306,9 @@ form {
 }
 
 .imojiHeader {
-    position: absolute;
     width: 82px;
     height: 100px;
+    position: absolute;
     top: 150px;
     left: -90px;
 }
@@ -318,9 +318,9 @@ form {
 
 .firstDepartment {
     width: 1440px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 
 .firstSection {
@@ -347,8 +347,8 @@ form {
 .imgOfFristSection {
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
     position: relative;
+    margin-top: 10px;
 }
 
 .firstImgFirstSection {
@@ -379,7 +379,6 @@ form {
 }
 
 .textWidthEmojiFirstSection {
-    margin: 0;
     width: 400px;
     height: 76px;
     position: absolute;
@@ -392,15 +391,16 @@ form {
     border-radius: 16px 16px 4px 16px;
     padding: 17px 42px 15px 16px;
     box-sizing: border-box;
+    margin: 0;
 }
 
 .textFirstSection {
-    margin: 0;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
     color: #ffffff;
+    margin: 0;
 }
 
 .fourthImgFirstSection {
@@ -464,20 +464,20 @@ form {
 }
 
 .emojiOfSecondSection {
-    position: absolute;
     width: 81px;
     height: 100px;
+    position: absolute;
     top: 635px;
     left: -20px;
 }
 
 .textSecondSection {
-    margin: 0;
     width: 480px;
     height: 408px;
     font-size: 58px;
     font-weight: 700;
     letter-spacing: 1.2px;
+    margin: 0;
 }
 
 .green {
@@ -489,17 +489,17 @@ form {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 182px 125px 0px 171px;
     background: url(./img/backkgroundForThirdSection.png) no-repeat;
+    padding: 182px 125px 0px 171px;
 }
 
 .textOfThirdSection {
-    margin: 0;
     width: 433px;
     height: 476px;
     font-size: 58px;
     font-weight: bold;
     letter-spacing: 1.2px;
+    margin: 0;
 }
 
 .orange {
@@ -535,36 +535,36 @@ form {
 }
 
 .textThirdSecond {
-    margin: 0;
+    width: 400px;
+    height: 98px;
     box-sizing: border-box;
     position: absolute;
     top: 130px;
     right: 220px;
-    width: 400px;
-    height: 98px;
     color: white;
     background: #111111;
+    font-size: 16px;
     box-shadow: 0px 4px 16px rgba(154, 94, 36, 0.15);
     border-radius: 16px 16px 4px 16px;
     padding: 17px 24px 15px 16px;
-    font-size: 16px;
+    margin: 0;
 }
 
 .imgThirdSection4 {
+    width: 82px;
+    height: 100px;
     position: absolute;
     top: 185px;
     right: 130px;
-    width: 82px;
-    height: 100px;
 }
 
 .secondDepartment {
-    display: flex;
     width: 1440px;
-    margin: 0 auto;
+    display: flex;
     flex-direction: column;
     align-items: center;
     background: #111111;
+    margin: 0 auto;
 }
 
 .titleDepartment {
@@ -572,10 +572,10 @@ form {
 }
 
 .textOfTitle {
-    margin: 0;
     color: white;
     font-weight: bold;
     font-size: 40px;
+    margin: 0;
 }
 
 .EmojiPlusText {
@@ -585,8 +585,8 @@ form {
 }
 
 .sectionWidthEmoji {
-    display: flex;
     width: 1200px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 44px 245px 143px;
@@ -598,35 +598,35 @@ form {
 }
 
 .smallTextSection {
+    color: white;
     margin: 0;
     padding-top: 9px;
-    color: white;
 }
 
 .largeTextSection {
+    width: 238px;
+    color: white;
+    text-align: center;
     margin: 0;
     padding-top: 18px;
-    color: white;
-    width: 238px;
-    text-align: center;
 }
 
 .thirdDepartment {
-    margin: 0 auto;
     width: 1440px;
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow: hidden;
+    margin: 0 auto;
 }
 
 .textOfTitleThirdDepartment {
-    margin: 80px 0px 50px 0px;
     color: #111111;
     font-size: 40px;
     font-style: normal;
     font-weight: normal;
     letter-spacing: 0.6px;
+    margin: 80px 0px 50px 0px;
 }
 
 .SectionOfPeople {
@@ -644,20 +644,20 @@ form {
 }
 
 .element {
+    width: 487px;
+    height: 163px;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    width: 487px;
-    height: 163px;
     background: #ffffff;
     box-shadow: 0px 14px 32px rgba(103, 63, 24, 0.1);
     border-radius: 10px;
 }
 
 .leftSide {
-    padding: 16px 21px 17px 20px;
     display: flex;
     flex-direction: column;
+    padding: 16px 21px 17px 20px;
 }
 
 .logoOfFirstElementFirstLine {
@@ -696,10 +696,10 @@ form {
 }
 
 .TextPosition {
+    color: rgba(55, 53, 40, 0.6);
     margin: 0;
     text-align: right;
     font-size: 12px;
-    color: rgba(55, 53, 40, 0.6);
 }
 
 .photo {
@@ -708,9 +708,9 @@ form {
 }
 
 .secondLine {
+    width: 1493px;
     display: flex;
     justify-content: space-between;
-    width: 1493px;
     margin-left: 350px;
 }
 
@@ -720,9 +720,9 @@ form {
 }
 
 .leftSideThirdElementSecondLine {
-    padding: 16px 63px 17px 20px;
     display: flex;
     flex-direction: column;
+    padding: 16px 63px 17px 20px;
 }
 
 .logoOfFirstElementSecondLine {
@@ -759,10 +759,10 @@ form {
 
 .TextPositionSecondLine {
     width: 80px;
-    margin: 0;
     text-align: right;
     font-size: 12px;
     color: rgba(55, 53, 40, 0.6);
+    margin: 0;
 }
 
 .photoElementSecondLine {
@@ -786,13 +786,13 @@ form {
 }
 
 .mainSectionFourthDepartment {
+    width: 970px;
     position: relative;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 970px;
     padding-top: 172px;
+    margin: 0 auto;
 }
 
 .fristElemFourthDepartment {
@@ -809,23 +809,23 @@ form {
 }
 
 .textFirstElemFourthDepartment {
-    margin: 0;
     width: 292px;
     text-align: center;
     font-size: 16px;
     line-height: 22px;
+    margin: 0;
 }
 
 .secondTextFirstElemFourthDepartment {
-    margin: 0;
     text-align: center;
     font-size: 13px;
+    margin: 0;
 }
 
 .price {
-    margin: 22px 0px 0px;
     font-size: 60px;
     letter-spacing: 0.8px;
+    margin: 22px 0px 0px;
 }
 
 .fotmOnFourthDepartment {
@@ -839,15 +839,15 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 63px;
     background: #FEFAF7;
+    margin-top: 63px;
 }
 
 .titleOnBlock {
-    margin: 0;
-    padding-top: 43px;
     text-align: center;
     font-size: 12px;
+    margin: 0;
+    padding-top: 43px;
 }
 
 .EmojiText1 {
@@ -891,90 +891,90 @@ form {
 }
 
 .textWE {
-    margin: 0;
     font-weight: normal;
     font-size: 16px;
     margin-left: 12px;
     text-align: left;
     line-height: 22px;
+    margin: 0;
 }
 
 .textWE2 {
-    margin: 0;
     width: 262px;
     font-weight: normal;
     font-size: 16px;
-    margin-left: 12px;
+    /* margin-left: 12px; */
+    margin: 0 0 0 12px;
 }
 
 .emojiWT2 {
-    position: relative;
-    bottom: 6px;
     width: 19px;
     height: 27px;
+    position: relative;
+    bottom: 6px;
 }
 
 .emojiWT3 {
-    position: relative;
-    top: 3px;
     width: 24px;
     height: 20px;
+    position: relative;
+    top: 3px;
 }
 
 .emojiWT5 {
-    position: relative;
-    bottom: 10px;
     width: 24px;
     height: 24px;
+    position: relative;
+    bottom: 10px;
 }
 
 .textSecondElemFourthDepartment {
-    margin: 0;
     width: 427px;
     font-weight: bold;
     font-size: 58px;
     line-height: 68px;
     letter-spacing: 1.2px;
+    margin: 0;
 }
 
 .textEmojiFourthDepartment {
-    margin: 0;
+    width: 400px;
+    height: 98px;
     box-sizing: border-box;
     position: relative;
     left: 6px;
     top: 41px;
     right: 220px;
-    width: 400px;
-    height: 98px;
     color: white;
     background: #111111;
     box-shadow: 0px 4px 16px rgba(154, 94, 36, 0.15);
     border-radius: 16px 16px 4px 16px;
-    padding: 17px 33px 37px 16px;
     font-size: 16px;
+    padding: 17px 33px 37px 16px;
+    margin: 0;
 }
 
 .emojiSecondElemFourthDepartment {
-    position: absolute;
-    left: 965px;
     width: 76px;
     height: 100px;
+    position: absolute;
+    left: 965px;
 }
 
 .fifthDepartment {
     width: 1440px;
-    margin-top: 170px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url(./img/bk5.png)
+    background: url(./img/bk5.png);
+    margin-top: 170px;
 }
 
 .titleFifthDepartment {
-    margin: 0;
     font-weight: normal;
     font-size: 58px;
     letter-spacing: 1.2px;
+    margin: 0;
 }
 
 .firstSectionFifthDepartment {
@@ -982,9 +982,9 @@ form {
 }
 
 .fifthDepartmentText {
-    margin: 0;
     font-weight: normal;
     font-size: 26px;
+    margin: 0;
 }
 
 .fifthDepartmentText1 {
@@ -1022,18 +1022,18 @@ form {
 }
 
 .textFirstPartsecondSection {
-    margin: 0;
-    box-sizing: border-box;
-    position: relative;
     width: 320px;
     height: 186px;
+    box-sizing: border-box;
+    position: relative;
     color: white;
     background: #111111;
     box-shadow: 0px 4px 16px rgba(154, 94, 36, 0.15);
     border-radius: 16px 16px 16px 4px;
-    padding: 17px 18px 17px 16px;
     font-size: 16px;
     line-height: 22px;
+    margin: 0;
+    padding: 17px 18px 17px 16px;
 }
 
 .emojififthDepartment {
@@ -1058,8 +1058,8 @@ form {
 }
 
 .textSubPart {
-    margin: 9px 0 0 0;
     font-size: 15px;
+    margin: 9px 0 0 0;
 }
 
 .sixthDepartment {
@@ -1078,12 +1078,12 @@ form {
 }
 
 .firstTextSixthDepartment {
-    margin: 0;
     width: 400px;
     color: #FFFFFF;
     font-size: 50px;
     font-weight: bold;
     letter-spacing: 1.2px;
+    margin: 0;
 }
 
 .secondSectionDepartment {
@@ -1093,9 +1093,9 @@ form {
 }
 
 .textSecondSectionDepartment {
-    margin: 17px 0 0 0;
     color: #FFFFFF;
     font-size: 12px;
+    margin: 17px 0 0 0;
 }
 
 .form2 {
@@ -1105,8 +1105,8 @@ form {
     box-sizing: border-box;
     color: #FFFFFF;
     background: rgba(255, 255, 255, 0.37);
-    padding: 5px 5px 5px 27px;
     border-radius: 16px;
+    padding: 5px 5px 5px 27px;
     margin-top: 32px;
 }
 
@@ -1126,17 +1126,17 @@ form {
 
 footer {
     width: 1440px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
+    margin: 0 auto;
 }
 
 .mainFooterSection {
     width: 1050px;
-    padding: 94px 0 102px 0;
     display: flex;
     justify-content: space-between;
+    padding: 94px 0 102px 0;
 }
 
 .footerlogo {
@@ -1146,17 +1146,17 @@ footer {
 }
 
 .graySquare {
-    position: relative;
     width: 16px;
     height: 16px;
+    position: relative;
     background: rgba(55, 53, 41, 0.155594);
     border-radius: 5px;
 }
 
 .blackSquareFooter {
-    position: absolute;
     width: 7px;
     height: 7px;
+    position: absolute;
     background-color: #000066;
     left: 4.5px;
     top: 4.3px;
@@ -1164,16 +1164,16 @@ footer {
 }
 
 .popLogoNameFooter {
-    margin: 0;
     font-weight: 900;
     font-size: 24px;
     color: #000066;
+    margin: 0;
 }
 
 .popLogo {
-    margin-right: 6px;
     position: relative;
     top: 3px;
+    margin-right: 6px;
 }
 
 .firstSectionOnFooter {
@@ -1183,62 +1183,58 @@ footer {
 }
 
 .firstTextFirstSectionOnFooter {
-    margin: 20px 0 0 0;
     font-weight: normal;
     font-size: 12px;
     line-height: 22px;
+    margin: 20px 0 0 0;
 }
 
 .secondTextFirstSectionOnFooter {
-    margin: 12px 0 0 0;
     font-weight: normal;
     font-size: 12px;
     line-height: 22px;
+    margin: 12px 0 0 0;
 }
 
 .thirdTextFirstSectionOnFooter {
-    margin: 15px 0 0 0;
     font-weight: normal;
     font-size: 15px;
     line-height: 19px;
+    margin: 15px 0 0 0;
 }
 
 .secondSectionOnFooter {
     width: 119px;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
 }
 
 .titleFooter {
-    margin: 0;
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
+    margin: 0;
 }
 
 .TextSectionOnFooter {
-    margin: 15px 0 0 0;
     font-weight: normal;
     font-size: 15px;
     line-height: 19px;
+    margin: 15px 0 0 0;
 }
 
 .thirdSectionOnFooter {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
 }
 
 .fourthSectionOnFooter {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
 }
 
 .fifthSectionOnFooter {
     width: 164px;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
 }
